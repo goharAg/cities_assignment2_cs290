@@ -1,0 +1,34 @@
+{
+  "name": "cities_assignment2_cs290",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "test": "mocha tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goharAg/cities_assignment2_cs290.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goharAg/cities_assignment2_cs290/issues"
+  },
+  "homepage": "https://github.com/goharAg/cities_assignment2_cs290#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.1",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "rewire": "^6.0.0",
+    "sinon": "^13.0.1"
+  }
+}
