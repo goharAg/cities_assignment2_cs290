@@ -31,7 +31,7 @@ describe("Testing cities.repository file", function () {
             }));
 
           
-            expect((await citiesRepository.getCityDataByZipCode('4'))).to.equal('San Francisco, CA, United States')
+            await expect(citiesRepository.getCityDataByZipCode('4')).to.eventually.equal('San Francisco, CA, United States')
             expect(axiosGetStub.calledOnceWithExactly('https://api.zippopotam.us/us/4')).to.be.true;
         });
     });    

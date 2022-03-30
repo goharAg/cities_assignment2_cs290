@@ -45,7 +45,7 @@ describe("Testing cities.service file", function () {
             .and.be.an.instanceOf(NotFoundError);
             
             
-          });
+        });
     });    
 
 });
